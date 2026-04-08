@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-environment-drift-detector"
+version = "0.1.0"
+description = "A CLI tool that continuously monitors and alerts on configuration or dependency drift in local development environments to ensure consistency."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "watchdog", "pyyaml", "gitpython"]
+dependencies = ["__future__", "click", "git", "pyyaml", "watchdog"]
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-environment-drift-detector"
