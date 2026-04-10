@@ -31,7 +31,7 @@ pip install dev-environment-drift-detector
 Alternatively, install from source:
 
 ```bash
-git clone https://github.com/your-username/dev-environment-drift-detector.git
+git clone https://github.com/dsoles-eth/dev-environment-drift-detector.git
 cd dev-environment-drift-detector
 pip install -e .
 ```
